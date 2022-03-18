@@ -8,3 +8,28 @@ html, body{
     padding: 0px;
     margin: 0px;
 }
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin: 0px auto;
+}
+.item{
+    flex-grow: 1;
+}
+.card{
+    text-decoration: none;
+    padding: 1rem;
+}
+.vertical-text{
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+}
+.sm-40 { width: 40%; }
+.sm-50 { width: 50%; }
+.sm-90 { width: 90%; }
+.sm-100 { width: 100%; }
+@media ( min-width: 480px ){
+    .lg-33 { width: 33.33%; }
+}
